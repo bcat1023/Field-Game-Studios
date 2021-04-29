@@ -144,7 +144,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumb
 gdjs.Level_321Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition0IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12916620);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12922540);
 }
 }if (gdjs.Level_321Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "https://resources.gdevelop-app.com/examples/platformer/jump.wav", false, 100, 1);
@@ -716,7 +716,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisi
 }if ( gdjs.Level_321Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition1IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12937612);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12943532);
 }
 }}
 if (gdjs.Level_321Code.condition1IsTrue_0.val) {
@@ -834,7 +834,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }
 
 
-};gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDPlayerHitBoxObjects2Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.Level_321Code.GDPlayerHitBoxObjects2});gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDNewObject2Objects2Objects = Hashtable.newFrom({"NewObject2": gdjs.Level_321Code.GDNewObject2Objects2});gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDPlayerHitBoxObjects2Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.Level_321Code.GDPlayerHitBoxObjects2});gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDNewObject2Objects2Objects = Hashtable.newFrom({"NewObject2": gdjs.Level_321Code.GDNewObject2Objects2});gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.Level_321Code.GDPlayerHitBoxObjects1});gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDNewObject2Objects1Objects = Hashtable.newFrom({"NewObject2": gdjs.Level_321Code.GDNewObject2Objects1});gdjs.Level_321Code.eventsList14 = function(runtimeScene) {
+};gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDPlayerHitBoxObjects2Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.Level_321Code.GDPlayerHitBoxObjects2});gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDNewObject2Objects2Objects = Hashtable.newFrom({"NewObject2": gdjs.Level_321Code.GDNewObject2Objects2});gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.Level_321Code.GDPlayerHitBoxObjects1});gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDNewObject2Objects1Objects = Hashtable.newFrom({"NewObject2": gdjs.Level_321Code.GDNewObject2Objects1});gdjs.Level_321Code.eventsList14 = function(runtimeScene) {
 
 {
 
@@ -848,27 +848,6 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisi
 }if ( gdjs.Level_321Code.condition0IsTrue_0.val ) {
 {
 gdjs.Level_321Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 1;
-}}
-if (gdjs.Level_321Code.condition1IsTrue_0.val) {
-{gdjs.evtTools.storage.writeNumberInJSONFile("save", "level", 2);
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "gamewin", true);
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("NewObject2"), gdjs.Level_321Code.GDNewObject2Objects2);
-gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.Level_321Code.GDPlayerHitBoxObjects2);
-
-gdjs.Level_321Code.condition0IsTrue_0.val = false;
-gdjs.Level_321Code.condition1IsTrue_0.val = false;
-{
-gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 0;
-}if ( gdjs.Level_321Code.condition0IsTrue_0.val ) {
-{
-gdjs.Level_321Code.condition1IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDPlayerHitBoxObjects2Objects, gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDNewObject2Objects2Objects, false, runtimeScene, false);
 }}
 if (gdjs.Level_321Code.condition1IsTrue_0.val) {
 {gdjs.evtTools.storage.writeNumberInJSONFile("save", "level", 2);

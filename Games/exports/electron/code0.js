@@ -33,6 +33,8 @@ gdjs.Start_32screenCode.GDVersionObjects1= [];
 gdjs.Start_32screenCode.GDVersionObjects2= [];
 gdjs.Start_32screenCode.GDNewObject5Objects1= [];
 gdjs.Start_32screenCode.GDNewObject5Objects2= [];
+gdjs.Start_32screenCode.GDNewObject6Objects1= [];
+gdjs.Start_32screenCode.GDNewObject6Objects2= [];
 
 gdjs.Start_32screenCode.conditionTrue_0 = {val:false};
 gdjs.Start_32screenCode.condition0IsTrue_0 = {val:false};
@@ -316,6 +318,8 @@ gdjs.Start_32screenCode.GDVersionObjects1.length = 0;
 gdjs.Start_32screenCode.GDVersionObjects2.length = 0;
 gdjs.Start_32screenCode.GDNewObject5Objects1.length = 0;
 gdjs.Start_32screenCode.GDNewObject5Objects2.length = 0;
+gdjs.Start_32screenCode.GDNewObject6Objects1.length = 0;
+gdjs.Start_32screenCode.GDNewObject6Objects2.length = 0;
 
 gdjs.Start_32screenCode.eventsList2(runtimeScene);
 return;

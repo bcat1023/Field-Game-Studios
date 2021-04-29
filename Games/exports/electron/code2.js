@@ -145,7 +145,7 @@ gdjs.Level_324Code.eventsList0 = function(runtimeScene) {
 gdjs.Level_324Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level_324Code.conditionTrue_1 = gdjs.Level_324Code.condition0IsTrue_0;
-gdjs.Level_324Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12563556);
+gdjs.Level_324Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12569476);
 }
 }if (gdjs.Level_324Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "https://resources.gdevelop-app.com/examples/platformer/jump.wav", false, 100, 1);
@@ -703,7 +703,7 @@ gdjs.Level_324Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisi
 }if ( gdjs.Level_324Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_324Code.conditionTrue_1 = gdjs.Level_324Code.condition1IsTrue_0;
-gdjs.Level_324Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12584388);
+gdjs.Level_324Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12590308);
 }
 }}
 if (gdjs.Level_324Code.condition1IsTrue_0.val) {
@@ -828,9 +828,9 @@ gdjs.Level_324Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 
 gdjs.Level_324Code.condition0IsTrue_0.val = false;
 {
-gdjs.Level_324Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 2;
+gdjs.Level_324Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 4;
 }if (gdjs.Level_324Code.condition0IsTrue_0.val) {
-{gdjs.evtTools.storage.writeNumberInJSONFile("save", "level", 4);
+{gdjs.evtTools.storage.writeNumberInJSONFile("save", "level", 5);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "gamewin", true);
 }}
 
@@ -842,7 +842,7 @@ gdjs.Level_324Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumb
 
 gdjs.Level_324Code.condition0IsTrue_0.val = false;
 {
-gdjs.Level_324Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) > 2;
+gdjs.Level_324Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) > 4;
 }if (gdjs.Level_324Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "gamewin", true);
 }}

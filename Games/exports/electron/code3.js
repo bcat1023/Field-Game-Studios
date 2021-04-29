@@ -145,7 +145,7 @@ gdjs.Level_323Code.eventsList0 = function(runtimeScene) {
 gdjs.Level_323Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level_323Code.conditionTrue_1 = gdjs.Level_323Code.condition0IsTrue_0;
-gdjs.Level_323Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12680716);
+gdjs.Level_323Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12686636);
 }
 }if (gdjs.Level_323Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "https://resources.gdevelop-app.com/examples/platformer/jump.wav", false, 100, 1);
@@ -703,7 +703,7 @@ gdjs.Level_323Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisi
 }if ( gdjs.Level_323Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_323Code.conditionTrue_1 = gdjs.Level_323Code.condition1IsTrue_0;
-gdjs.Level_323Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12701548);
+gdjs.Level_323Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12707468);
 }
 }}
 if (gdjs.Level_323Code.condition1IsTrue_0.val) {
