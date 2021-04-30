@@ -60,6 +60,7 @@ gdjs.Level_32SelectCode.condition0IsTrue_0.val = false;
 gdjs.Level_32SelectCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.Level_32SelectCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level 1", true);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "6591848021032960.wav", 3, true, 100, 1);
 }}
 
 }
@@ -74,7 +75,8 @@ gdjs.Level_32SelectCode.condition0IsTrue_0.val = false;
 {
 gdjs.Level_32SelectCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.Level_32SelectCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Start screen", true);
+{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 2);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Start screen", true);
 }}
 
 }
@@ -89,7 +91,8 @@ gdjs.Level_32SelectCode.condition0IsTrue_0.val = false;
 {
 gdjs.Level_32SelectCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.Level_32SelectCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 2");
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "6591848021032960.wav", 3, true, 100, 1);
+}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 2");
 }}
 
 }
@@ -122,7 +125,8 @@ gdjs.Level_32SelectCode.condition0IsTrue_0.val = false;
 {
 gdjs.Level_32SelectCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.Level_32SelectCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 3");
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "6591848021032960.wav", 3, true, 100, 1);
+}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 3");
 }}
 
 }
@@ -155,7 +159,8 @@ gdjs.Level_32SelectCode.condition0IsTrue_0.val = false;
 {
 gdjs.Level_32SelectCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.Level_32SelectCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 4");
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "6591848021032960.wav", 3, true, 100, 1);
+}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 4");
 }}
 
 }
@@ -188,7 +193,8 @@ gdjs.Level_32SelectCode.condition0IsTrue_0.val = false;
 {
 gdjs.Level_32SelectCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.Level_32SelectCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 3");
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "6591848021032960.wav", 3, true, 100, 1);
+}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 3");
 }}
 
 }
@@ -356,7 +362,10 @@ gdjs.Level_32SelectCode.eventsList10(runtimeScene);} //End of subevents
 {
 
 
+gdjs.Level_32SelectCode.condition0IsTrue_0.val = false;
 {
+gdjs.Level_32SelectCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.Level_32SelectCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("L2_text"), gdjs.Level_32SelectCode.GDL2_95textObjects1);
 gdjs.copyArray(runtimeScene.getObjects("L3_text"), gdjs.Level_32SelectCode.GDL3_95textObjects1);
 gdjs.copyArray(runtimeScene.getObjects("L4_text"), gdjs.Level_32SelectCode.GDL4_95textObjects1);
@@ -385,6 +394,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewObject5"), gdjs.Level_32SelectCode.GD
     gdjs.Level_32SelectCode.GDL4_95textObjects1[i].hide();
 }
 }{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "4644590051655680.wav", 2, true, 100, 1);
 }}
 
 }

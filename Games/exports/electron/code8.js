@@ -75,6 +75,19 @@ gdjs.gamewinCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 
+{
+
+
+gdjs.gamewinCode.condition0IsTrue_0.val = false;
+{
+gdjs.gamewinCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.gamewinCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "2255677113106432.wav", false, 100, 1);
+}}
+
+}
+
+
 };
 
 gdjs.gamewinCode.func = function(runtimeScene) {

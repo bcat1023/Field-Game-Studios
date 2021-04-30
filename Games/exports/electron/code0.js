@@ -102,6 +102,7 @@ gdjs.Start_32screenCode.condition0IsTrue_0.val = false;
 gdjs.Start_32screenCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.Start_32screenCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.setBackgroundColor(runtimeScene, "");
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "51363861207449603.wav", 1, true, 100, 1);
 }}
 
 }

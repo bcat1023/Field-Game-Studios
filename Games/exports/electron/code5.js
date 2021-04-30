@@ -147,10 +147,10 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumb
 gdjs.Level_321Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition0IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12914956);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12928196);
 }
 }if (gdjs.Level_321Code.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "https://resources.gdevelop-app.com/examples/platformer/jump.wav", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "https://resources.gdevelop-app.com/examples/platformer/jump.wav", false, 20, 1);
 }}
 
 }
@@ -288,7 +288,7 @@ for(var i = 0, len = gdjs.Level_321Code.GDFlyObjects2.length ;i < len;++i) {
 }{for(var i = 0, len = gdjs.Level_321Code.GDPlayerHitBoxObjects2.length ;i < len;++i) {
     gdjs.Level_321Code.GDPlayerHitBoxObjects2[i].getBehavior("PlatformerObject").simulateJumpKey();
 }
-}{gdjs.evtTools.sound.playSound(runtimeScene, "https://resources.gdevelop-app.com/examples/platformer/jump.wav", false, 100, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "https://resources.gdevelop-app.com/examples/platformer/jump.wav", false, 20, 1);
 }
 { //Subevents
 gdjs.Level_321Code.eventsList4(runtimeScene);} //End of subevents
@@ -719,7 +719,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisi
 }if ( gdjs.Level_321Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition1IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12935924);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12949164);
 }
 }}
 if (gdjs.Level_321Code.condition1IsTrue_0.val) {
@@ -1344,7 +1344,7 @@ if (gdjs.Level_321Code.condition1IsTrue_0.val) {
 {for(var i = 0, len = gdjs.Level_321Code.GDCoinObjects1.length ;i < len;++i) {
     gdjs.Level_321Code.GDCoinObjects1[i].setOpacity(254);
 }
-}{gdjs.evtTools.sound.playSound(runtimeScene, "https://resources.gdevelop-app.com/examples/platformer/coin.wav", false, 100, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "https://resources.gdevelop-app.com/examples/platformer/coin.wav", false, 20, 1);
 }{runtimeScene.getVariables().getFromIndex(0).add(1);
 }{for(var i = 0, len = gdjs.Level_321Code.GDCoinObjects1.length ;i < len;++i) {
     gdjs.Level_321Code.GDCoinObjects1[i].getBehavior("Tween").addObjectOpacityTween("FadeOut", 0, "easeInQuad", 700, true);
