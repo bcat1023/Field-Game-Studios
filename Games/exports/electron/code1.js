@@ -384,6 +384,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewObject5"), gdjs.Level_32SelectCode.GD
 }{for(var i = 0, len = gdjs.Level_32SelectCode.GDL4_95textObjects1.length ;i < len;++i) {
     gdjs.Level_32SelectCode.GDL4_95textObjects1[i].hide();
 }
+}{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
 }}
 
 }

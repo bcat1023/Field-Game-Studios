@@ -105,6 +105,9 @@ gdjs.Level_321Code.GDNewObject3Objects3= [];
 gdjs.Level_321Code.GDNewObject4Objects1= [];
 gdjs.Level_321Code.GDNewObject4Objects2= [];
 gdjs.Level_321Code.GDNewObject4Objects3= [];
+gdjs.Level_321Code.GDNewObject5Objects1= [];
+gdjs.Level_321Code.GDNewObject5Objects2= [];
+gdjs.Level_321Code.GDNewObject5Objects3= [];
 
 gdjs.Level_321Code.conditionTrue_0 = {val:false};
 gdjs.Level_321Code.condition0IsTrue_0 = {val:false};
@@ -144,7 +147,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumb
 gdjs.Level_321Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition0IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12922540);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12914956);
 }
 }if (gdjs.Level_321Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "https://resources.gdevelop-app.com/examples/platformer/jump.wav", false, 100, 1);
@@ -561,7 +564,8 @@ gdjs.Level_321Code.condition0IsTrue_0.val = false;
 {
 gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.Level_321Code.condition0IsTrue_0.val) {
-}
+{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
+}}
 
 }
 
@@ -575,8 +579,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = false;
 gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Level_321Code.mapOfGDgdjs_46Level_95321Code_46GDLeftButtonObjects2Objects, runtimeScene, true, false);
 }if (gdjs.Level_321Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.Level_321Code.GDPlayerHitBoxObjects2);
-{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
-}{for(var i = 0, len = gdjs.Level_321Code.GDPlayerHitBoxObjects2.length ;i < len;++i) {
+{for(var i = 0, len = gdjs.Level_321Code.GDPlayerHitBoxObjects2.length ;i < len;++i) {
     gdjs.Level_321Code.GDPlayerHitBoxObjects2[i].getBehavior("PlatformerObject").simulateLeftKey();
 }
 }}
@@ -716,7 +719,7 @@ gdjs.Level_321Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisi
 }if ( gdjs.Level_321Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_321Code.conditionTrue_1 = gdjs.Level_321Code.condition1IsTrue_0;
-gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12943532);
+gdjs.Level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12935924);
 }
 }}
 if (gdjs.Level_321Code.condition1IsTrue_0.val) {
@@ -1539,6 +1542,9 @@ gdjs.Level_321Code.GDNewObject3Objects3.length = 0;
 gdjs.Level_321Code.GDNewObject4Objects1.length = 0;
 gdjs.Level_321Code.GDNewObject4Objects2.length = 0;
 gdjs.Level_321Code.GDNewObject4Objects3.length = 0;
+gdjs.Level_321Code.GDNewObject5Objects1.length = 0;
+gdjs.Level_321Code.GDNewObject5Objects2.length = 0;
+gdjs.Level_321Code.GDNewObject5Objects3.length = 0;
 
 gdjs.Level_321Code.eventsList16(runtimeScene);
 return;

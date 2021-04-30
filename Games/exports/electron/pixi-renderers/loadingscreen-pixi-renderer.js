@@ -15,7 +15,7 @@ var gdjs;
       });
       this._loadingScreen.addChild(this._progressText);
       if (loadingScreenSetup && loadingScreenSetup.showGDevelopSplash) {
-        this._madeWithText = new PIXI.Text("Field Game Studios", {
+        this._madeWithText = new PIXI.Text("Field Game Studios"){
           fontSize: "30px",
           fontFamily: "Arial",
           fill: "#FFFFFF",
