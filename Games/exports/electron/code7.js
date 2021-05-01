@@ -20,7 +20,8 @@ gdjs.PauseCode.condition0IsTrue_0.val = false;
 {
 gdjs.PauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.PauseCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.popScene(runtimeScene);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "6591848021032960.wav", 3, true, 100, 1);
+}{gdjs.evtTools.runtimeScene.popScene(runtimeScene);
 }}
 
 }
@@ -35,7 +36,9 @@ gdjs.PauseCode.condition0IsTrue_0.val = false;
 {
 gdjs.PauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.PauseCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Start screen", true);
+{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 3);
+}{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 3);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Start screen", true);
 }}
 
 }

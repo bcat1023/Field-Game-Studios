@@ -60,7 +60,6 @@ gdjs.Level_32SelectCode.condition0IsTrue_0.val = false;
 gdjs.Level_32SelectCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.Level_32SelectCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level 1", true);
-}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "6591848021032960.wav", 3, true, 100, 1);
 }}
 
 }
@@ -91,8 +90,7 @@ gdjs.Level_32SelectCode.condition0IsTrue_0.val = false;
 {
 gdjs.Level_32SelectCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.Level_32SelectCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "6591848021032960.wav", 3, true, 100, 1);
-}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 2");
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 2");
 }}
 
 }
@@ -125,8 +123,7 @@ gdjs.Level_32SelectCode.condition0IsTrue_0.val = false;
 {
 gdjs.Level_32SelectCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.Level_32SelectCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "6591848021032960.wav", 3, true, 100, 1);
-}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 3");
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 3");
 }}
 
 }
@@ -159,8 +156,7 @@ gdjs.Level_32SelectCode.condition0IsTrue_0.val = false;
 {
 gdjs.Level_32SelectCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.Level_32SelectCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "6591848021032960.wav", 3, true, 100, 1);
-}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 4");
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 4");
 }}
 
 }
@@ -193,8 +189,7 @@ gdjs.Level_32SelectCode.condition0IsTrue_0.val = false;
 {
 gdjs.Level_32SelectCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.Level_32SelectCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "6591848021032960.wav", 3, true, 100, 1);
-}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 3");
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Level 3");
 }}
 
 }

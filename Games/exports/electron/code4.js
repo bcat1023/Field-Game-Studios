@@ -142,7 +142,7 @@ gdjs.Level_322Code.eventsList0 = function(runtimeScene) {
 gdjs.Level_322Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level_322Code.conditionTrue_1 = gdjs.Level_322Code.condition0IsTrue_0;
-gdjs.Level_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12812916);
+gdjs.Level_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12846316);
 }
 }if (gdjs.Level_322Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "https://resources.gdevelop-app.com/examples/platformer/jump.wav", false, 20, 1);
@@ -714,7 +714,7 @@ gdjs.Level_322Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisi
 }if ( gdjs.Level_322Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level_322Code.conditionTrue_1 = gdjs.Level_322Code.condition1IsTrue_0;
-gdjs.Level_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12834068);
+gdjs.Level_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12867540);
 }
 }}
 if (gdjs.Level_322Code.condition1IsTrue_0.val) {
@@ -962,6 +962,7 @@ gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.Level_322Code.GDPla
 }{runtimeScene.getVariables().getFromIndex(5).setString("STOP: DO NOT CONTINUE. CONTACT DEV");
 }{gdjs.evtTools.storage.readNumberFromJSONFile("save", "level", runtimeScene, runtimeScene.getVariables().getFromIndex(5));
 }{gdjs.evtTools.camera.setCameraZoom(runtimeScene, 0.5, "", 0);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "6591848021032960.wav", 3, true, 100, 1);
 }}
 
 }
